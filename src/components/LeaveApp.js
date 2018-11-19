@@ -49,9 +49,7 @@ class LeaveApp extends Component {
                         <Col sm="12">
                             <Card>
                             <CardTitle style={{background: '#3F51B5', fontSize: '21px', height: '62px', color: '#fff', paddingLeft: '23px', paddingTop: '15px', paddingBottom: '25px'}} >LEAVE APPLICATION</CardTitle>
-                            <CardBody>
-
-                                
+                            <CardBody>                                
                                     <Row>
                                         <Col xs='6'>
                                             <FormGroup>
@@ -119,9 +117,11 @@ class LeaveApp extends Component {
                                                     <option value='MedicalLeave'>Medical Leave</option>
                                                     <option value='PLLeave'>PL Leave</option>
                                                 </Input>
+                                                
                                             </FormGroup>
                                             <FormGroup>
                                                 <Label for="name" className="grey-text font-weight-light">To Date</Label>
+                                                                                                
                                                 <Input 
                                                     type="date" 
                                                     name="tdate" 
@@ -150,8 +150,7 @@ class LeaveApp extends Component {
                                             </FormGroup>
                                             <Button color="primary" size="sm" type='submit' className="float-right">Submit</Button>
                                         </Col>                             
-                                    </Row>                                      
-                                
+                                    </Row>   
                             </CardBody>
                             </Card>
                         </Col>  
